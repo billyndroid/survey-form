@@ -5,11 +5,29 @@ html {
     flex: auto;
 
 }
-h1 {
-    text-align: center;
-    font-size: 30px;
-
+header {
+    background-color: chocolate;
+    text-align: right;
+    block-size: 100px;
 }
 #title {
-    text-align: right;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(216, 207, 207);
+}
+.container {
+    flex-direction: column;
+}
+#survey-form {
+    border: gold;
+    border-radius: 20px;
+    align-items: center;
+   border: black;
+   border-style: groove;
+}
+footer {
+    background-color:chocolate;
+            text-align:center;
+            padding:10px;
+            margin-top:7px;
 }
