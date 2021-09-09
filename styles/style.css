@@ -14,37 +14,55 @@ header {
     text-align: center;
     font-size: 50px;
     color: rgb(216, 207, 207);
+    background-color: chocolate ;
 }
 .container {
     flex-direction: column;
 }
+#description {
+    color: rgb(216, 207, 207);
+   
+}
 #survey-form {
     border: gold;
+    background-color:rgb(173, 62, 62) ;
     border-radius: 80px;
-    align-items: center;
+    display:grid;
    border: black;
-   border-top-style: solid;
-border-right-style: solid;
-border-bottom-style: solid;
-border-left-style: solid;
    border-style: groove;
+   margin: auto;
+   padding: 10%;
+   border-radius: 10%;
 }
 #number-label {
-    margin: 20px;
-    background-color: blue;
-    border-radius: 30px;
+    color: rgb(216, 207, 207);
+    background-color: chocolate;}
+}
+#number {
+    background-color: firebrick;
+    color: rgb(216, 207, 207);
 }
 #dropdown-label {
-    background-color: cornsilk;
-}
+    color: rgb(216, 207, 207);
+    background-color: chocolate;}
 #email-label {
-    background-color: darkcyan;
-}
+    color: rgb(216, 207, 207);
+    background-color: chocolate;}
 #name-label {
-    background-color: darkorange;
-}
+    color: rgb(216, 207, 207);
+    background-color: chocolate;}
+    #checkbox {
+       
+    }
 #checkbox-label {
-    background-color: darkslategrey;
+    color: rgb(216, 207, 207);
+    background-color: chocolate;}
+#submit {
+    border-radius: 20%;
+}
+textarea {
+    color: rgb(216, 207, 207);
+    background-color: chocolate;}
 }
 footer {
     background-color:chocolate;
