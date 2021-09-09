@@ -8,31 +8,37 @@
     </head>
     <body>
         <main>
-            <header>
-                <nav>
-                    <Button>
-                    <a href="LINK TO LOWER IN PAGE#" class="button">1</a>
-                    <button onclick="window.location.href=''">Continue</button>
-                    <a href="LINK TO LOWER IN PAGE#" class="button">2</a>
-                    <button onclick="window.location.href='/page2'">Continue</button>
-                    <a href="LINK TO LOWER IN PAGE#" class="button">4</a>
-            </Button>
-                </nav>
-            </header>
             <article>
                 <h1 id="title">Survey Form</h1>
-                <h2>
-<p id="description">A cat survey, about cats.</p>
+<p id="description">A cat survey, about cats. Tell us about your cats below:</p>
 <div class="container">
 <form id="survey-form">
-    <label for="name" id="name-label">Name:</label>
-<input type="text"  id="name" value="name" placeholder="Insert Name Here." required><br>
+    <label for="name" id="name-label">What is your name?:</label>
+<input type="text"  id="name" value="Name Here" placeholder="Insert Name Here." required><br>
+
+<label for="email" id="email-label">What is your email addres?:</label>
+<input type="email" id="email" value="Email Here" placeholder="Insert Name Here." required><br>
+
+<label for="number" id="number-label">How many cats do you have?:</label>
+<input type="number" id="number" value="name" placeholder="How Many?"  min="10" max="100" required><br>
+<label for="dropdown" id="dropdown-label">What kind of cat?:</label>
+<select id="dropdown" name="dropdown">
+    <option value="ginger">|Ginger</option>
+    <option value="siamese">Siamese</option>
+    <option value="fat">Fat</option>
+    <option value="other">Other</option>
+  </select>
+  <label for="checkbox" id="checkbox-label">INSERT SOMETHING USEFUL HERE:</label>
+  <input type="checkbox" id="checkbox" value="over2">
+  <input type="submit">
+<br>
+<textarea>
+
+    </textarea><br>
+
+	<input type="submit" id="submit" value="Submit Now!">
 </form>
 </div>
-                </h2>
-                <h3>
-
-                </h3>
             </article>
            
           <footer>
@@ -42,5 +48,6 @@
           </div>
           </footer>
         </main>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
     </body>
 </html>

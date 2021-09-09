@@ -20,10 +20,31 @@ header {
 }
 #survey-form {
     border: gold;
-    border-radius: 20px;
+    border-radius: 80px;
     align-items: center;
    border: black;
+   border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
    border-style: groove;
+}
+#number-label {
+    margin: 20px;
+    background-color: blue;
+    border-radius: 30px;
+}
+#dropdown-label {
+    background-color: cornsilk;
+}
+#email-label {
+    background-color: darkcyan;
+}
+#name-label {
+    background-color: darkorange;
+}
+#checkbox-label {
+    background-color: darkslategrey;
 }
 footer {
     background-color:chocolate;
