@@ -51,6 +51,9 @@ header {
 #name-label {
     color: rgb(216, 207, 207);
     background-color: chocolate;}
+#name {
+    border-radius: 5%;
+}
     #checkbox {
        
     }
@@ -63,7 +66,7 @@ header {
 }
 textarea {
     color: rgb(216, 207, 207);
-    background-color: chocolate;}
+    background-color: chocolate;
 }
 footer {
     background-color:chocolate;
